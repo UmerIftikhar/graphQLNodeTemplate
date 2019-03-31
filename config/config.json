@@ -1,0 +1,17 @@
+{
+  "development": {
+    "host": "serverName.database.windows.net",
+	"database": "dbName",
+	"username": "username",
+	"password": "password",
+	"dialect": "mssql",
+	  "dialectOptions": {
+			"encrypt": true
+	  },
+	  "pool": {
+			"max": 5,
+			"min": 0,
+			"idle": 10000
+	  }
+  }
+}
